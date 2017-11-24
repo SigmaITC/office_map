@@ -16,7 +16,7 @@
     "city" : "Göteborg"
   },
   {
-    "roomNumber" : 1,
+    "roomNumber" : 3,
     "roomName" : "Bojen",
     "noOfPeolple" : 4,
     "roomDescription" : "TV, Tfn",
@@ -24,7 +24,7 @@
     "city" : "Göteborg"
   },
   {
-    "roomNumber" : 2,
+    "roomNumber" : 7,
     "roomName" : "Insikten",
     "noOfPeolple" : 4,
     "roomDescription" : "TV",
@@ -32,7 +32,7 @@
     "city" : "Göteborg"
   },
   {
-    "roomNumber" : 3,
+    "roomNumber" : 11,
     "roomName" : "Inspirationen",
     "noOfPeolple" : 10,
     "roomDescription" : "",
@@ -40,7 +40,7 @@
     "city" : "Göteborg"
   },
   {
-    "roomNumber" : 4,
+    "roomNumber" : 6,
     "roomName" : "Mässen",
     "noOfPeolple" : 10,
     "roomDescription" : "Tfn, Proj",
@@ -56,7 +56,7 @@
     "city" : "Göteborg"
   },
   {
-    "roomNumber" : 6,
+    "roomNumber" : 2,
     "roomName" : "Trossen",
     "noOfPeolple" : 4,
     "roomDescription" : "TV",
@@ -64,7 +64,7 @@
     "city" : "Göteborg"
   },
   {
-    "roomNumber" : 7,
+    "roomNumber" : 8,
     "roomName" : "Brandgula Rummet",
     "noOfPeolple" : 4,
     "roomDescription" : "46TumsTv",
@@ -72,7 +72,7 @@
     "city" : "Göteborg"
   },
   {
-    "roomNumber" : 8,
+    "roomNumber" : 10,
     "roomName" : "Digitala Rummet",
     "noOfPeolple" : 4,
     "roomDescription" : "",
@@ -88,7 +88,7 @@
     "city" : "Göteborg"
   },
   {
-    "roomNumber" : 10,
+    "roomNumber" : 12,
     "roomName" : "Tanken",
     "noOfPeolple" : 8,
     "roomDescription" : "",
@@ -96,7 +96,7 @@
     "city" : "Göteborg"
   },
   {
-    "roomNumber" : 11,
+    "roomNumber" : 1,
     "roomName" : "Utsikten",
     "noOfPeolple" : 4,
     "roomDescription" : "",
@@ -104,7 +104,7 @@
     "city" : "Göteborg"
   },
   {
-    "roomNumber" : 12,
+    "roomNumber" : 4,
     "roomName" : "Växthuset",
     "noOfPeolple" : 3,
     "roomDescription" : "",

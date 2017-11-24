@@ -5,7 +5,7 @@ import { Button, Text, View, TouchableOpacity, StyleSheet, ScrollView } from 're
 
 
 export default class HomeScreen extends React.Component {
-    state = {rooms}
+    state = { rooms }
     static navigationOptions = {
         title: 'Office Map by Sigma'
     };
@@ -14,45 +14,48 @@ export default class HomeScreen extends React.Component {
         return (
             <View>
                 <OfficeMapSearchBar />
-                <ScrollView>
-                    {
-               this.state.rooms.map((item, index) => (
-                  <TouchableOpacity
-                     key = {item.roomName}
-                     style = {styles.container}
-                     onPress={() => navigate('Floor', { room: item.roomName })}>
+                    <ScrollView style={styles.scrollViewContainer}>
+                        {
+                            this.state.rooms.map((item, index) => (
+                                <TouchableOpacity
+                                    key={item.roomName}
+                                    style={styles.container}
+                                    onPress={() => navigate('Floor', { room: item })}>
 
-                     <Text style = {styles.text}>
-                        Namn: {item.roomName}
-                     </Text>
-                     <Text style = {styles.text}>
-                      Rum number: {item.roomNumber}
-                     </Text>
-                     <Text>
-                      {item.noOfPeolple}pl
-                     </Text>
-                     <Text>
-                      Description: {item.roomDescription}
-                     </Text>
-                  </TouchableOpacity>
-               ))
-            }
-                </ScrollView>
+                                    <Text style={styles.text}>
+                                        Namn: {item.roomName}
+                                    </Text>
+                                    <Text style={styles.text}>
+                                        Rum number: {item.roomNumber}
+                                    </Text>
+                                    <Text>
+                                        {item.noOfPeolple}pl
+                                    </Text>
+                                    <Text>
+                                        Description: {item.roomDescription}
+                                    </Text>
+                                </TouchableOpacity>
+                            ))
+                        }
+                    </ScrollView>
             </View>
         )
     }
 }
 
-const styles = StyleSheet.create ({
+const styles = StyleSheet.create({
     container: {
-       padding: 10,
-       marginLeft: 20,
-       marginRight: 20,
-       marginTop: 10,
-       backgroundColor: '#ff6600',
-       flex: 1
+        padding: 10,
+        marginLeft: 20,
+        marginRight: 20,
+        marginTop: 10,
+        backgroundColor: '#ff6600',
+        flex: 1
     },
     text: {
-       color: '#000000'
+        color: '#000000'
+    },
+    scrollViewContainer:{
+        marginBottom: 100
     }
- })
+})

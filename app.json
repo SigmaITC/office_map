@@ -1,5 +1,8 @@
 {
   "expo": {
+    "name": "Office Map",
+    "description": "A map over the sigma office",
+    "slug": "office_map",
     "sdkVersion": "22.0.0"
   }
 }
