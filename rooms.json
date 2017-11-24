@@ -1,0 +1,131 @@
+{ "city" : "Göteborg",
+  "floors" :
+  [
+    {
+      "floorNumber" : "1",
+      "rooms" :
+      [
+        {
+          "roomNumber" : 1,
+          "roomName" : "Luftskeppet",
+          "noOfPeolple" : 10,
+          "roomDescription" : "Projector, restricted area"
+        },
+        {
+          "roomNumber" : 2,
+          "roomName" : "Läckande Ekan",
+          "noOfPeolple" : 3,
+          "roomDescription" : "Restricted area"
+        }
+      ]
+    },
+    {
+      "floorNumber" : "2",
+      "rooms" :
+      [
+        {
+          "roomNumber" : 1,
+          "roomName" : "Bojen",
+          "noOfPeolple" : 4,
+          "roomDescription" : "TV, Tfn"
+        },
+        {
+          "roomNumber" : 2,
+          "roomName" : "Insikten",
+          "noOfPeolple" : 4,
+          "roomDescription" : "TV"
+        },
+        {
+          "roomNumber" : 3,
+          "roomName" : "Inspirationen",
+          "noOfPeolple" : 10,
+          "roomDescription" : ""
+        },
+        {
+          "roomNumber" : 4,
+          "roomName" : "Mässen",
+          "noOfPeolple" : 10,
+          "roomDescription" : "Tfn, Proj"
+        },
+        {
+          "roomNumber" : 5,
+          "roomName" : "Mellanrummet",
+          "noOfPeolple" : 6,
+          "roomDescription" : "TV"
+        },
+        {
+          "roomNumber" : 6,
+          "roomName" : "Trossen",
+          "noOfPeolple" : 4,
+          "roomDescription" : "TV"
+        },
+        {
+          "roomNumber" : 7,
+          "roomName" : "Brandgula Rummet",
+          "noOfPeolple" : 4,
+          "roomDescription" : "46TumsTv"
+        },
+        {
+          "roomNumber" : 8,
+          "roomName" : "Digitala Rummet",
+          "noOfPeolple" : 4,
+          "roomDescription" : ""
+        },
+        {
+          "roomNumber" : 9,
+          "roomName" : "Rutiga Rummet",
+          "noOfPeolple" : 5,
+          "roomDescription" : "Ståplatser, 46TumsTv"
+        },
+        {
+          "roomNumber" : 10,
+          "roomName" : "Tanken",
+          "noOfPeolple" : 8,
+          "roomDescription" : ""
+        },
+        {
+          "roomNumber" : 11,
+          "roomName" : "Utsikten",
+          "noOfPeolple" : 4,
+          "roomDescription" : ""
+        },
+        {
+          "roomNumber" : 12,
+          "roomName" : "Växthuset",
+          "noOfPeolple" : 3,
+          "roomDescription" : ""
+        }
+      ]
+    },
+    {
+      "floorNumber" : "5",
+      "rooms" :
+      [
+        {
+          "roomNumber" : 1,
+          "roomName" : "Dalarna",
+          "noOfPeolple" : 6,
+          "roomDescription" : "Sigma-Ericsson, TV, Konf.telefon"
+        },
+        {
+          "roomNumber" : 2,
+          "roomName" : "Halland",
+          "noOfPeolple" : 8,
+          "roomDescription" : "Sigma-Ericsson, Projektor, Konf.tele"
+        },
+        {
+          "roomNumber" : 3,
+          "roomName" : "Skåne",
+          "noOfPeolple" : 12,
+          "roomDescription" : "Sigma-Ericsson, Projektor, Konf.telefon"
+        },
+        {
+          "roomNumber" : 4,
+          "roomName" : "Småland",
+          "noOfPeolple" : 8,
+          "roomDescription" : "Sigma-Ericsson, TV, Konf.telefon"
+        }
+      ]
+    }
+  ]
+}
