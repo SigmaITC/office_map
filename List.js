@@ -1,42 +1,33 @@
 import React, { Component } from 'react'
+import rooms2 from './rooms2.json';
 import { Text, View, TouchableOpacity, StyleSheet } from 'react-native'
 
 class List extends Component {
-   state = {
-      rooms: [
-         {
-            id: 0,
-            room: 'Ben',
-         },
-         {
-            id: 1,
-            room: 'Susan',
-         },
-         {
-            id: 2,
-            room: 'Robert',
-         },
-         {
-            id: 3,
-            room: 'Mary',
-         }
-      ]
-   }
+   state = {rooms2}
    alertItemName = (item) => {
-      alert(item.room)
+      alert(item.roomName)
    }
    render() {
       return (
          <View>
             {
-               this.state.rooms.map((item, index) => (
+               this.state.rooms2.map((item, index) => (
                   <TouchableOpacity
-                     key = {item.id}
+                     key = {item.roomName}
                      style = {styles.container}
                      onPress = {() => this.alertItemName(item)}>
 
                      <Text style = {styles.text}>
-                        {item.room}
+                        Namn: {item.roomName}
+                     </Text>
+                     <Text style = {styles.text}>
+                      Rum number: {item.roomNumber}
+                     </Text>
+                     <Text>
+                      {item.noOfPeolple}pl
+                     </Text>
+                     <Text>
+                      Description: {item.roomDescription}
                      </Text>
                   </TouchableOpacity>
                ))
@@ -45,6 +36,7 @@ class List extends Component {
       )
    }
 }
+
 export default List
 
 const styles = StyleSheet.create ({

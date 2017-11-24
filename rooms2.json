@@ -1,0 +1,74 @@
+[
+  {
+    "roomNumber" : 1,
+    "roomName" : "Bojen",
+    "noOfPeolple" : 4,
+    "roomDescription" : "TV, Tfn"
+  },
+  {
+    "roomNumber" : 2,
+    "roomName" : "Insikten",
+    "noOfPeolple" : 4,
+    "roomDescription" : "TV"
+  },
+  {
+    "roomNumber" : 3,
+    "roomName" : "Inspirationen",
+    "noOfPeolple" : 10,
+    "roomDescription" : ""
+  },
+  {
+    "roomNumber" : 4,
+    "roomName" : "Mässen",
+    "noOfPeolple" : 10,
+    "roomDescription" : "Tfn, Proj"
+  },
+  {
+    "roomNumber" : 5,
+    "roomName" : "Mellanrummet",
+    "noOfPeolple" : 6,
+    "roomDescription" : "TV"
+  },
+  {
+    "roomNumber" : 6,
+    "roomName" : "Trossen",
+    "noOfPeolple" : 4,
+    "roomDescription" : "TV"
+  },
+  {
+    "roomNumber" : 7,
+    "roomName" : "Brandgula Rummet",
+    "noOfPeolple" : 4,
+    "roomDescription" : "46TumsTv"
+  },
+  {
+    "roomNumber" : 8,
+    "roomName" : "Digitala Rummet",
+    "noOfPeolple" : 4,
+    "roomDescription" : ""
+  },
+  {
+    "roomNumber" : 9,
+    "roomName" : "Rutiga Rummet",
+    "noOfPeolple" : 5,
+    "roomDescription" : "Ståplatser, 46TumsTv"
+  },
+  {
+    "roomNumber" : 10,
+    "roomName" : "Tanken",
+    "noOfPeolple" : 8,
+    "roomDescription" : ""
+  },
+  {
+    "roomNumber" : 11,
+    "roomName" : "Utsikten",
+    "noOfPeolple" : 4,
+    "roomDescription" : ""
+  },
+  {
+    "roomNumber" : 12,
+    "roomName" : "Växthuset",
+    "noOfPeolple" : 3,
+    "roomDescription" : ""
+  }
+]
