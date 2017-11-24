@@ -16,7 +16,7 @@ class OfficeMapSearchBar extends Component {
 
 const styles = StyleSheet.create ({
    container: {
-      paddingTop: 50,
+      paddingTop: 10,
       marginLeft: 20,
       marginRight: 20
 

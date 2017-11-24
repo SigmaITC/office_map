@@ -1,12 +1,11 @@
 import React from 'react';
-import List from './List.js';
-import rooms2 from '../../rooms2.json';
+import rooms from '../../rooms.json';
 import OfficeMapSearchBar from './OfficeMapSearchBar.js'
 import { Button, Text, View, TouchableOpacity, StyleSheet, ScrollView } from 'react-native'
 
 
 export default class HomeScreen extends React.Component {
-    state = {rooms2}
+    state = {rooms}
     static navigationOptions = {
         title: 'Office Map by Sigma'
     };
@@ -17,7 +16,7 @@ export default class HomeScreen extends React.Component {
                 <OfficeMapSearchBar />
                 <ScrollView>
                     {
-               this.state.rooms2.map((item, index) => (
+               this.state.rooms.map((item, index) => (
                   <TouchableOpacity
                      key = {item.roomName}
                      style = {styles.container}
@@ -50,10 +49,10 @@ const styles = StyleSheet.create ({
        marginLeft: 20,
        marginRight: 20,
        marginTop: 10,
-       backgroundColor: '#ebebe0',
-       alignItems: 'center',
+       backgroundColor: '#ff6600',
+       flex: 1
     },
     text: {
-       color: '#4f603c'
+       color: '#000000'
     }
  })
