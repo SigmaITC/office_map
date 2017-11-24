@@ -1,17 +1,8 @@
 import React from 'react';
-import List from './List.js';
-import OfficeMapSearchBar from './OfficeMapSearchBar.js'
-import { Text, View, TouchableOpacity, StyleSheet, ScrollView } from 'react-native'
+import AppNavigation from './src/navigation/AppNavigation'
 
-const App = () => {
-   return (
-      <View>
-      <OfficeMapSearchBar/>
-      <ScrollView>
-      <List />
-      </ScrollView>
-      </View>
-   )
-}
-
-export default App;
+export default class App extends React.Component {
+    render() {
+      return <AppNavigation />;
+    }
+  }

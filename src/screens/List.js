@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import rooms2 from './rooms2.json';
+import rooms2 from '../../rooms2.json';
 import { Text, View, TouchableOpacity, StyleSheet } from 'react-native'
 
 class List extends Component {
