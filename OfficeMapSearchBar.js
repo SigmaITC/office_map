@@ -5,9 +5,8 @@ import { Text, View, TouchableOpacity, StyleSheet } from 'react-native'
 class OfficeMapSearchBar extends Component {
   render() {
      return (
-        <View>
+        <View style = {styles.container}>
           <SearchBar
-            style = {styles.container}
             placeholder='Search room...'
           />
         </View>
@@ -17,7 +16,7 @@ class OfficeMapSearchBar extends Component {
 
 const styles = StyleSheet.create ({
    container: {
-      padding: 10,
+      paddingTop: 50,
       marginLeft: 20,
       marginRight: 20
 
