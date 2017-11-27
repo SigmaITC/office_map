@@ -1,22 +1,37 @@
 import React from 'react';
 import rooms from '../../rooms.json';
-import OfficeMapSearchBar from './OfficeMapSearchBar.js'
 import { Button, Text, View, TouchableOpacity, StyleSheet, ScrollView } from 'react-native'
-
+import SearchInput, { createFilter } from 'react-native-search-filter';
+const KEYS_TO_FILTERS = ['roomName'];
 
 export default class HomeScreen extends React.Component {
-    state = { rooms }
     static navigationOptions = {
         title: 'Office Map by Sigma'
     };
+
+    constructor() {
+        super();
+        this.state = { searchTerm: ""};
+    }
+
+    searchUpdated(term) {
+        this.setState({ searchTerm: term })
+    }
+
     render() {
+        const filteredRooms = rooms.filter(createFilter(this.state.searchTerm, KEYS_TO_FILTERS))
+
         const { navigate } = this.props.navigation;
         return (
             <View>
-                <OfficeMapSearchBar />
+                  <SearchInput
+                    onChangeText={(term) => { this.searchUpdated(term) }}
+                    style={styles.searchInput}
+                    placeholder="Search room..."
+                  />
                     <ScrollView style={styles.scrollViewContainer}>
                         {
-                            this.state.rooms.map((item, index) => (
+                            filteredRooms.map((item, index) => (
                                 <TouchableOpacity
                                     key={item.roomName}
                                     style={styles.container}
@@ -57,5 +72,13 @@ const styles = StyleSheet.create({
     },
     scrollViewContainer:{
         marginBottom: 100
+    },
+    searchInput:{
+      padding: 10,
+      borderColor: 'blue',
+      borderWidth: 1,
+      paddingTop: 10,
+      marginLeft: 20,
+      marginRight: 20
     }
 })
